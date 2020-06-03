@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #welcome-section {
+    width: 60%;
+    margin: auto;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    text-indent: 3em;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    margin: auto;
+    padding: 20px 0px;
+  }
+  
+  .nav-links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav-links li a:hover {
+    color: #0073cf;
+  }
+  
+  h1 {
+    padding: 25px 0px;
+  }
+  
+  p {
+    font-size: 5.625em;
+    font-weight: 700;
+  }
+  
+  a {
+    text-decoration: none; 
+    color: black;
+  }
