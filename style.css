@@ -13,26 +13,43 @@ body {
 
   }
 
-  #navbar {
-      position: fixed;
-  }
-  
   .nav-links {
     list-style-type: none;
     display: flex;
+    justify-content: flex-end;
+    padding-right: 3em;
     text-indent: 3em;
     font-weight: bold;
     font-size: 20px;
   }
   
-  header {
+  /*
+  #header {
+    width: 60%;
+    padding: 20px 0px;
+    position: fixed;
+    margin: auto;
     display: flex;
     justify-content: flex-end;
-    width: 60%;
-    margin: auto;
-    padding: 20px 0px;
+    
   }
-  
+  */
+
+  #header {
+      width: 100%;
+      position: fixed;
+  }
+
+#navbar {
+      width: 60%;
+      background-color: white;
+      min-width: 420px;
+      padding: 20px 0px;
+      margin: auto;
+      
+  }
+
+
   .nav-links li a {
     transition: all 0.3s ease 0s;
   }
