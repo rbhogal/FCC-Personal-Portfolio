@@ -14,6 +14,8 @@ body {
 
   }
 
+/* --- NAV --- */
+
   .nav-links {
     list-style-type: none;
     display: flex;
@@ -104,17 +106,50 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .4)
  }
 
+
+/* --- PROJECTS SECTION --- */
+
+#project-heading {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
  #projects {
-     width: 60%;
+     width: 65%;
      height: 100vh;
      margin: auto;
   }
 
+.project-tile {
+  background-color: black;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);
+  
+}
+
+.project-tile:active {
+  transform: translateY(4px);
+}
+
   .project-img {
     width: 350px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, .4)
+    height: 205;
+    object-fit: cover;
+    
+
   }
  
-  .project-img:hover {
+
+  .project-tile:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .2)
+  }
+
+  #projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-row-gap: 25px;
+
   }
