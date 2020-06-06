@@ -108,7 +108,13 @@ body {
      width: 60%;
      height: 100vh;
      margin: auto;
-     
+  }
 
- }
+  .project-img {
+    width: 350px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .4)
+  }
  
+  .project-img:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2)
+  }
