@@ -1,10 +1,11 @@
 html {
     scroll-behavior: smooth;
+    
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    
+    margin: 0;
   }
   
   #welcome-section {
@@ -40,6 +41,13 @@ body {
 
   #header {
       width: 100%;
+}
+
+#navbar-container {
+  width: 100%;
+  background-color: white;
+  height: 104px;
+  position: fixed;
 }
 
 #navbar {
@@ -113,6 +121,7 @@ body {
   width: 80%;
   margin: auto;
   padding-bottom: 50px;
+  font-size: 30px;
 }
 
  #projects {
@@ -133,23 +142,54 @@ body {
   transform: translateY(4px);
 }
 
-  .project-img {
+.project-img {
     width: 350px;
     height: 205;
     object-fit: cover;
     
-
   }
  
+  
 
-  .project-tile:hover {
+.project-tile:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .2)
   }
 
-  #projects-grid {
+#projects-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     grid-row-gap: 25px;
+    margin-bottom: 35px;
+  }
 
+#contact-sign-img {
+    width: 210px;
+    display: block;
+    margin: auto;
+    transition: box-shadow .3s ease 0s;
+  }
+
+  /*--- FOOTER: Contact ---*/
+  
+  footer {
+    background-color: black;
+    color: white;
+    
+  }
+
+  #contact-info {
+    width: 60%;
+    display: flex;
+    margin: auto;
+  }
+
+  #contact-links {
+    line-height: 4px;
+    padding: 50px 0px;
+  }
+
+  #contact-links h1 {
+    padding-bottom: 25px;
+    padding-top: 0px;
   }
