@@ -165,6 +165,7 @@ body {
 
 #contact-sign-img {
     width: 350px;
+    height: 69px;
     display: block;
     margin: auto;
     transition: box-shadow .3s ease 0s;
