@@ -6,7 +6,9 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+
   }
+
   
   #welcome-section {
     width: 60%;
@@ -165,7 +167,7 @@ body {
   #contact {
     background-color: black;
     color: white;
-    
+
   }
 
   #contact-info {
