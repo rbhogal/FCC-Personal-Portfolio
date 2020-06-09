@@ -128,10 +128,6 @@ body {
 
 }
 
-.project-tile h2 {
-  
-}
-
 .project-tile:active {
   transform: translateY(4px);
 }
@@ -186,4 +182,8 @@ body {
   #contact-links h1 {
     padding-bottom: 25px;
     padding-top: 0px;
+  }
+
+  #contact a {
+    color: white;
   }
